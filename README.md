@@ -1,4 +1,6 @@
-# Create package
+# Create & Update package
+
+## Steps to create
 
 ```mkdir fixme01
 cd fixme01/
@@ -9,7 +11,8 @@ git commit -m "First commit"
 git remote add origin  https://username:passwd@github.com/yuroapps/fixme01.git
 git push -u origin master```
 
-# Update package
+
+## Update package
 
 ```git add .
 git commit -m "Second commit"
