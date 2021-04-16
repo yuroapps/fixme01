@@ -1,6 +1,6 @@
 # Create & Update package
 
-## Steps to create
+## Create package
 
 ```mkdir fixme01
 cd fixme01/
@@ -9,8 +9,8 @@ vim README.md
 git add .
 git commit -m "First commit"
 git remote add origin  https://username:passwd@github.com/yuroapps/fixme01.git
-git push -u origin master```
-
+git push -u origin master
+```
 
 ## Update package
 
