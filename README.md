@@ -10,6 +10,7 @@ git remote add origin  https://username:passwd@github.com/yuroapps/fixme01.git
 git push -u origin master```
 
 # Update package
+
 ```git add .
 git commit -m "Second commit"
 if `git push` throws an error, do `git push origin master --force` ```
