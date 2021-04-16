@@ -18,4 +18,6 @@ class TestStringMethods(unittest.TestCase):
             s.split(2)
 
 if __name__ == '__main__':
+    print('hola')
     unittest.main()
+    print('chau')
