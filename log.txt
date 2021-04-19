@@ -1,0 +1,193 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 51b8f012-439d-4aac-a2cf-8b002efd3fa3@1.worker-com-oss-75486f8dc9-pc4zp.gce-production-3
+version: 6.2.22 https://github.com/travis-ci/worker/tree/858cb91994a513269f2fe9782c15fc113e966231
+instance: travis-job-199dbde3-6e40-4376-aef3-88ebbd2d38b6 travis-ci-sardonyx-xenial-1593004276-4d46c6b3 (via amqp)
+startup: 5.916142244s
+travis_fold:end:worker_info[0Ktravis_time:start:00bc6830[0Ktravis_time:end:00bc6830:start=1618837221355359619,finish=1618837221489443376,duration=134083757,event=no_world_writable_dirs[0Ktravis_time:start:10174593[0Ktravis_time:end:10174593:start=1618837221492507239,finish=1618837221499613909,duration=7106670,event=agent[0Ktravis_time:start:00d24fa2[0Ktravis_time:end:00d24fa2:start=1618837221502454195,finish=1618837221504697872,duration=2243677,event=check_unsupported[0Ktravis_time:start:2e484022[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build dist: xenial
+Build id: 223465123
+Job id: 499456460
+Runtime kernel version: 4.15.0-1077-gcp
+travis-build version: 091d532a
+[34m[1mBuild image provisioning date and time[0m
+Wed Jun 24 13:36:52 UTC 2020
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+3f92a99 https://github.com/travis-ci/travis-cookbooks/tree/3f92a99
+[34m[1mgit version[0m
+git version 2.27.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.7.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.42.1 linux-x64 node-v12.16.2
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2019-11-12 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.30, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.13 (Ubuntu 10.13-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Mar 18 2020 14:06:17)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.4
+[34m[1mnvm version[0m
+0.35.3
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.88
+[34m[1mphpenv version[0m
+rbenv 1.1.2-30-gc879cb0
+[34m[1mrvm version[0m
+rvm 1.29.10 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.19
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.26
+9.5.22
+9.6.18
+[34m[1mRedis version[0m
+redis-server 6.0.5
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mant version[0m
+Apache Ant(TM) version 1.9.6 compiled on July 20 2018
+[34m[1mmvn version[0m
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[34m[1mgradle version[0m
+Gradle 5.1.1!
+[34m[1mlein version[0m
+Leiningen 2.9.3 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.21.0
+v11.0.0
+v12.18.1
+v4.9.1
+v6.17.1
+v8.12.0
+v8.17.0
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:2e484022:start=1618837221508254916,finish=1618837221514186946,duration=5932030,event=show_system_info[0Ktravis_time:start:0091cdc0[0Ktravis_time:end:0091cdc0:start=1618837221516982009,finish=1618837221528881411,duration=11899402,event=rm_riak_source[0Ktravis_time:start:0b7cbcb8[0Ktravis_time:end:0b7cbcb8:start=1618837221531614561,finish=1618837221540354459,duration=8739898,event=fix_rwky_redis[0Ktravis_time:start:07cb9717[0Ktravis_time:end:07cb9717:start=1618837221543098919,finish=1618837221973293683,duration=430194764,event=wait_for_network[0Ktravis_time:start:15d91b28[0Ktravis_time:end:15d91b28:start=1618837221976803093,finish=1618837222191716261,duration=214913168,event=update_apt_keys[0Ktravis_time:start:0217cfc6[0Ktravis_time:end:0217cfc6:start=1618837222195135420,finish=1618837222246513475,duration=51378055,event=fix_hhvm_source[0Ktravis_time:start:2b21f46e[0Ktravis_time:end:2b21f46e:start=1618837222250012377,finish=1618837222252832972,duration=2820595,event=update_mongo_arch[0Ktravis_time:start:2dbae7c6[0Ktravis_time:end:2dbae7c6:start=1618837222255898961,finish=1618837222294266347,duration=38367386,event=fix_sudo_enabled_trusty[0Ktravis_time:start:226e85ef[0Ktravis_time:end:226e85ef:start=1618837222297059874,finish=1618837222299037735,duration=1977861,event=update_glibc[0Ktravis_time:start:00de39f4[0Ktravis_time:end:00de39f4:start=1618837222301763302,finish=1618837222309178241,duration=7414939,event=clean_up_path[0Ktravis_time:start:3097fefc[0Ktravis_time:end:3097fefc:start=1618837222311984787,finish=1618837222319255003,duration=7270216,event=fix_resolv_conf[0Ktravis_time:start:25253481[0Ktravis_time:end:25253481:start=1618837222321926343,finish=1618837222329995162,duration=8068819,event=fix_etc_hosts[0Ktravis_time:start:06049f7a[0Ktravis_time:end:06049f7a:start=1618837222332645751,finish=1618837222342700095,duration=10054344,event=fix_mvn_settings_xml[0Ktravis_time:start:03b499cc[0Ktravis_time:end:03b499cc:start=1618837222345465203,finish=1618837222353836154,duration=8370951,event=no_ipv6_localhost[0Ktravis_time:start:01bd674e[0Ktravis_time:end:01bd674e:start=1618837222356567088,finish=1618837222358793152,duration=2226064,event=fix_etc_mavenrc[0Ktravis_time:start:0c503805[0Ktravis_time:end:0c503805:start=1618837222361649391,finish=1618837222364477359,duration=2827968,event=fix_wwdr_certificate[0Ktravis_time:start:15b27579[0Ktravis_time:end:15b27579:start=1618837222367133925,finish=1618837222388960203,duration=21826278,event=put_localhost_first[0Ktravis_time:start:015b0913[0Ktravis_time:end:015b0913:start=1618837222391605067,finish=1618837222394172246,duration=2567179,event=home_paths[0Ktravis_time:start:0397a2f4[0Ktravis_time:end:0397a2f4:start=1618837222396898116,finish=1618837222408540153,duration=11642037,event=disable_initramfs[0Ktravis_time:start:397ca1be[0Ktravis_time:end:397ca1be:start=1618837222411152682,finish=1618837222719956967,duration=308804285,event=disable_ssh_roaming[0Ktravis_time:start:0000f092[0Ktravis_time:end:0000f092:start=1618837222723232199,finish=1618837222725537136,duration=2304937,event=debug_tools[0Ktravis_time:start:04dec72d[0Ktravis_time:end:04dec72d:start=1618837222728577471,finish=1618837222731582086,duration=3004615,event=uninstall_oclint[0Ktravis_time:start:10bffd77[0Ktravis_time:end:10bffd77:start=1618837222734584945,finish=1618837222737494301,duration=2909356,event=rvm_use[0Ktravis_time:start:004362aa[0Ktravis_time:end:004362aa:start=1618837222740549373,finish=1618837222748144126,duration=7594753,event=rm_etc_boto_cfg[0Ktravis_time:start:01399871[0Ktravis_time:end:01399871:start=1618837222751138077,finish=1618837222755931958,duration=4793881,event=rm_oraclejdk8_symlink[0Ktravis_time:start:240a7268[0Ktravis_time:end:240a7268:start=1618837222758861785,finish=1618837222853795286,duration=94933501,event=enable_i386[0Ktravis_time:start:2bd950b4[0Ktravis_time:end:2bd950b4:start=1618837222857104258,finish=1618837222862422494,duration=5318236,event=update_rubygems[0Ktravis_time:start:020cf8a1[0Ktravis_time:end:020cf8a1:start=1618837222865297352,finish=1618837223629579365,duration=764282013,event=ensure_path_components[0Ktravis_time:start:0a19989f[0Ktravis_time:end:0a19989f:start=1618837223632696648,finish=1618837223634812872,duration=2116224,event=redefine_curl[0Ktravis_time:start:3802247a[0Ktravis_time:end:3802247a:start=1618837223637638909,finish=1618837223639812642,duration=2173733,event=nonblock_pipe[0Ktravis_time:start:00d89690[0Ktravis_time:end:00d89690:start=1618837223642566897,finish=1618837229675049158,duration=6032482261,event=apt_get_update[0Ktravis_time:start:35bfd700[0Ktravis_time:end:35bfd700:start=1618837229678656002,finish=1618837229681052893,duration=2396891,event=deprecate_xcode_64[0Ktravis_time:start:033a465e[0Ktravis_time:end:033a465e:start=1618837229684073338,finish=1618837232383156527,duration=2699083189,event=update_heroku[0Ktravis_time:start:00f06640[0Ktravis_time:end:00f06640:start=1618837232386294423,finish=1618837232388432526,duration=2138103,event=shell_session_update[0Ktravis_time:start:0beb5080[0Ktravis_fold:start:docker_mtu_and_registry_mirrors[0Ktravis_fold:end:docker_mtu_and_registry_mirrors[0Ktravis_time:end:0beb5080:start=1618837232391310528,finish=1618837234992122055,duration=2600811527,event=set_docker_mtu_and_registry_mirrors[0Ktravis_time:start:191e0d76[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:191e0d76:start=1618837234997521581,finish=1618837235059101298,duration=61579717,event=resolvconf[0Ktravis_time:start:2569fa4c[0Ktravis_time:end:2569fa4c:start=1618837235066523136,finish=1618837235193855531,duration=127332395,event=maven_central_mirror[0Ktravis_time:start:011f9e00[0Ktravis_time:end:011f9e00:start=1618837235197455041,finish=1618837235284157684,duration=86702643,event=maven_https[0K[33;1m3.9 is not installed; attempting download[0m
+[33;1mDownloading archive: https://storage.googleapis.com/travis-ci-language-archives/python/binaries/ubuntu/16.04/x86_64/python-3.9.tar.bz2[0m
+travis_time:start:043a88d8[0K$ curl -sSf --retry 5 -o python-3.9.tar.bz2 ${archive_url}
+travis_time:end:043a88d8:start=1618837235363619603,finish=1618837236802568297,duration=1438948694,event=configure[0Ktravis_time:start:2562300f[0K$ sudo tar xjf python-3.9.tar.bz2 --directory /
+travis_time:end:2562300f:start=1618837236805898790,finish=1618837246884407149,duration=10078508359,event=configure[0Ktravis_time:start:01b12e46[0Ktravis_time:end:01b12e46:start=1618837246903283856,finish=1618837246905498754,duration=2214898,event=fix_ps4[0Ktravis_time:start:05fa1450[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0e9e99b9[0K$ git clone --depth=50 --branch=master https://github.com/yuroapps/fixme01.git yuroapps/fixme01
+Cloning into 'yuroapps/fixme01'...
+remote: Enumerating objects: 47, done.[K
+remote: Counting objects:   2% (1/47)[Kremote: Counting objects:   4% (2/47)[Kremote: Counting objects:   6% (3/47)[Kremote: Counting objects:   8% (4/47)[Kremote: Counting objects:  10% (5/47)[Kremote: Counting objects:  12% (6/47)[Kremote: Counting objects:  14% (7/47)[Kremote: Counting objects:  17% (8/47)[Kremote: Counting objects:  19% (9/47)[Kremote: Counting objects:  21% (10/47)[Kremote: Counting objects:  23% (11/47)[Kremote: Counting objects:  25% (12/47)[Kremote: Counting objects:  27% (13/47)[Kremote: Counting objects:  29% (14/47)[Kremote: Counting objects:  31% (15/47)[Kremote: Counting objects:  34% (16/47)[Kremote: Counting objects:  36% (17/47)[Kremote: Counting objects:  38% (18/47)[Kremote: Counting objects:  40% (19/47)[Kremote: Counting objects:  42% (20/47)[Kremote: Counting objects:  44% (21/47)[Kremote: Counting objects:  46% (22/47)[Kremote: Counting objects:  48% (23/47)[Kremote: Counting objects:  51% (24/47)[Kremote: Counting objects:  53% (25/47)[Kremote: Counting objects:  55% (26/47)[Kremote: Counting objects:  57% (27/47)[Kremote: Counting objects:  59% (28/47)[Kremote: Counting objects:  61% (29/47)[Kremote: Counting objects:  63% (30/47)[Kremote: Counting objects:  65% (31/47)[Kremote: Counting objects:  68% (32/47)[Kremote: Counting objects:  70% (33/47)[Kremote: Counting objects:  72% (34/47)[Kremote: Counting objects:  74% (35/47)[Kremote: Counting objects:  76% (36/47)[Kremote: Counting objects:  78% (37/47)[Kremote: Counting objects:  80% (38/47)[Kremote: Counting objects:  82% (39/47)[Kremote: Counting objects:  85% (40/47)[Kremote: Counting objects:  87% (41/47)[Kremote: Counting objects:  89% (42/47)[Kremote: Counting objects:  91% (43/47)[Kremote: Counting objects:  93% (44/47)[Kremote: Counting objects:  95% (45/47)[Kremote: Counting objects:  97% (46/47)[Kremote: Counting objects: 100% (47/47)[Kremote: Counting objects: 100% (47/47), done.[K
+remote: Compressing objects:   2% (1/36)[Kremote: Compressing objects:   5% (2/36)[Kremote: Compressing objects:   8% (3/36)[Kremote: Compressing objects:  11% (4/36)[Kremote: Compressing objects:  13% (5/36)[Kremote: Compressing objects:  16% (6/36)[Kremote: Compressing objects:  19% (7/36)[Kremote: Compressing objects:  22% (8/36)[Kremote: Compressing objects:  25% (9/36)[Kremote: Compressing objects:  27% (10/36)[Kremote: Compressing objects:  30% (11/36)[Kremote: Compressing objects:  33% (12/36)[Kremote: Compressing objects:  36% (13/36)[Kremote: Compressing objects:  38% (14/36)[Kremote: Compressing objects:  41% (15/36)[Kremote: Compressing objects:  44% (16/36)[Kremote: Compressing objects:  47% (17/36)[Kremote: Compressing objects:  50% (18/36)[Kremote: Compressing objects:  52% (19/36)[Kremote: Compressing objects:  55% (20/36)[Kremote: Compressing objects:  58% (21/36)[Kremote: Compressing objects:  61% (22/36)[Kremote: Compressing objects:  63% (23/36)[Kremote: Compressing objects:  66% (24/36)[Kremote: Compressing objects:  69% (25/36)[Kremote: Compressing objects:  72% (26/36)[Kremote: Compressing objects:  75% (27/36)[Kremote: Compressing objects:  77% (28/36)[Kremote: Compressing objects:  80% (29/36)[Kremote: Compressing objects:  83% (30/36)[Kremote: Compressing objects:  86% (31/36)[Kremote: Compressing objects:  88% (32/36)[Kremote: Compressing objects:  91% (33/36)[Kremote: Compressing objects:  94% (34/36)[Kremote: Compressing objects:  97% (35/36)[Kremote: Compressing objects: 100% (36/36)[Kremote: Compressing objects: 100% (36/36), done.[K
+remote: Total 47 (delta 13), reused 37 (delta 8), pack-reused 0[K
+Receiving objects:   2% (1/47)Receiving objects:   4% (2/47)Receiving objects:   6% (3/47)Receiving objects:   8% (4/47)Receiving objects:  10% (5/47)Receiving objects:  12% (6/47)Receiving objects:  14% (7/47)Receiving objects:  17% (8/47)Receiving objects:  19% (9/47)Receiving objects:  21% (10/47)Receiving objects:  23% (11/47)Receiving objects:  25% (12/47)Receiving objects:  27% (13/47)Receiving objects:  29% (14/47)Receiving objects:  31% (15/47)Receiving objects:  34% (16/47)Receiving objects:  36% (17/47)Receiving objects:  38% (18/47)Receiving objects:  40% (19/47)Receiving objects:  42% (20/47)Receiving objects:  44% (21/47)Receiving objects:  46% (22/47)Receiving objects:  48% (23/47)Receiving objects:  51% (24/47)Receiving objects:  53% (25/47)Receiving objects:  55% (26/47)Receiving objects:  57% (27/47)Receiving objects:  59% (28/47)Receiving objects:  61% (29/47)Receiving objects:  63% (30/47)Receiving objects:  65% (31/47)Receiving objects:  68% (32/47)Receiving objects:  70% (33/47)Receiving objects:  72% (34/47)Receiving objects:  74% (35/47)Receiving objects:  76% (36/47)Receiving objects:  78% (37/47)Receiving objects:  80% (38/47)Receiving objects:  82% (39/47)Receiving objects:  85% (40/47)Receiving objects:  87% (41/47)Receiving objects:  89% (42/47)Receiving objects:  91% (43/47)Receiving objects:  93% (44/47)Receiving objects:  95% (45/47)Receiving objects:  97% (46/47)Receiving objects: 100% (47/47)Receiving objects: 100% (47/47), 5.70 KiB | 5.70 MiB/s, done.
+Resolving deltas:   0% (0/13)Resolving deltas:  30% (4/13)Resolving deltas:  69% (9/13)Resolving deltas:  76% (10/13)Resolving deltas:  84% (11/13)Resolving deltas:  92% (12/13)Resolving deltas: 100% (13/13)Resolving deltas: 100% (13/13), done.
+travis_time:end:0e9e99b9:start=1618837246911637140,finish=1618837247336363498,duration=424726358,event=checkout[0K$ cd yuroapps/fixme01
+$ git checkout -qf 1f60fcc1342e83e7aafdcd33f1014bbef21346bf
+travis_fold:end:git.checkout[0K
+travis_time:end:0e9e99b9:start=1618837246911637140,finish=1618837247342604829,duration=430967689,event=checkout[0Ktravis_time:start:2ea9b028[0Ktravis_time:end:2ea9b028:start=1618837247345826074,finish=1618837247352029434,duration=6203360,event=env[0Ktravis_time:start:00a3110c[0K$ source ~/virtualenv/python3.9/bin/activate
+travis_time:end:00a3110c:start=1618837247355142087,finish=1618837247360467886,duration=5325799,event=[0K$ python --version
+Python 3.9.1
+$ pip --version
+pip 20.3.1 from /home/travis/virtualenv/python3.9.1/lib/python3.9/site-packages/pip (python 3.9)
+travis_fold:start:install[0Ktravis_time:start:2dea1a06[0K$ pip install -r requirements.txt
+travis_time:end:2dea1a06:start=1618837247683267677,finish=1618837248157546568,duration=474278891,event=install[0Ktravis_fold:end:install[0Ktravis_time:start:0a77148d[0K$ python test.py
+hola
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+travis_time:end:0a77148d:start=1618837248161867229,finish=1618837248207541093,duration=45673864,event=script[0K[32;1mThe command "python test.py" exited with 0.[0m
+
+
+Done. Your build exited with 0.
